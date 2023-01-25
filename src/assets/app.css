@@ -1,0 +1,17 @@
+body {
+    background: url(./polka.png) no-repeat;
+}
+
+.bd {
+    border: none;
+}
+
+@media screen and (min-width:992px) {
+    body {
+        overflow: auto !important;
+        transform: none;
+    }
+    .offcanvas-backdrop::before {
+        display: none;
+    }
+}

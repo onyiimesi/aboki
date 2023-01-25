@@ -4,64 +4,7 @@
 
       <div class="row">
         <div class="col-md-2">
-          <nav class="navbar navbar-collapse navbar-light bd fixed-top">
-            <div class="b">
-              <div
-                class="offcanvas offcanvas-start sidenavbar"
-                :class="showMenu ? 'show' : ''"
-                tabindex="-1"
-                :style="{ visibility: showMenu ? 'visible' : 'hidden' }"
-              >
-                <div class="offcanvas-body">
-                  <img
-                    src="../assets/logo.png"
-
-                    class="px-3"
-                    style="margin-top:-1px; !important"
-                  />
-
-                  <p>.....................................................</p>
-                  <div class="dropdown">
-                    <a
-                      class="dropdown-toggle"
-                      href="#"
-                      id="dropdownMenuLink"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Dropdown link
-                    </a>
-
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="dropdown">
-                    <button
-                      class="btn btn-secondary dropdown-toggle"
-                      type="button"
-                      id="dropdownMenuButton1"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Dropdown button
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
+           
         </div>
 
         <div class="col-md-10">
@@ -192,7 +135,7 @@
                       <td><img src="../assets/Vector.png" alt=""></td>
                     </tr>
 
-
+                    
                   </tbody>
                 </table>
                 <span>See More</span>
@@ -203,11 +146,11 @@
         </div>
       </div>
 
-
+      
 
       </div>
     </div>
-
+  
 
 </template>
 
